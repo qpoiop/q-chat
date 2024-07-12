@@ -1,0 +1,44 @@
+{
+    "name": "qchat-client",
+    "author": "qpoiop3@gmail.com",
+    "license": "ISC",
+    "private": true,
+    "version": "1.0.0",
+    "main": "index.tsx",
+    "sideEffects": [
+        "*.css"
+    ],
+    "type": "module",
+    "scripts": {
+        "start": "vite",
+        "build:dev": "vite build --mode development",
+        "build:prod": "vite build --mode production",
+        "ts:check": "tsc"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.23.3",
+        "@types/jest": "^29.5.11",
+        "@types/node": "^20.10.4",
+        "@types/react-datepicker": "^4.19.5",
+        "@types/react-dom": "^18.2.7",
+        "@types/react-router-dom": "^5.3.3",
+        "@vitejs/plugin-react": "^4.2.1",
+        "rollup-plugin-visualizer": "^5.12.0",
+        "sass": "^1.77.0"
+    },
+    "dependencies": {
+        "@mui/icons-material": "^5.14.9",
+        "@mui/material": "^5.14.10",
+        "axios": "^1.6.2",
+        "classnames": "^2.5.1",
+        "postcss-loader": "^7.3.3",
+        "react-dom": "^18.2.0",
+        "react-error-boundary": "^4.0.11",
+        "react-router-dom": "6.22.1",
+        "recoil": "^0.7.7"
+    },
+    "peerDependencies": {
+        "@remix-run/router": "1.15.1",
+        "react-router": "6.22.1"
+    }
+}

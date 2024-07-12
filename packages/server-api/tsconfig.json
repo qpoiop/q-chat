@@ -1,0 +1,22 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "include": ["src/**/*"],
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "skipLibCheck": true,
+        "declarationMap": true,
+        "outDir": "build",
+        "baseUrl": ".",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "typeRoots": ["types.d.ts"],
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "skipLibCheck": true,
+        "declarationMap": true,
+        "jsx": "react-jsx",
+        "outDir": "dist",
+        "baseUrl": ".",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "typeRoots": ["types.d.ts"]
+    }
+}

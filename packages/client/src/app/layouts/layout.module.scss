@@ -1,0 +1,45 @@
+:local(.layout) {
+    &:is(&) {
+        & :is(.container) {
+            flex: 1;
+            flex-direction: column;
+        }
+
+        & :is(.tab_group) {
+            position: relative;
+            padding: 2rem 1rem 0 1rem;
+            background-color: #ffffff;
+            width: 100%;
+            overflow: hidden;
+            & :is(.tab_item) {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                width: auto;
+                min-width: 10rem;
+                max-width: 15rem;
+                height: 2.5rem;
+                padding: 0 1.5rem;
+                z-index: 100;
+                border: 1.5px solid transparent;
+                border-bottom: none !important;
+                background-color: #f3f3f3;
+                transition: background-color 0.2s linear;
+
+                &::after {
+                    content: 'x';
+                    position: absolute;
+                    top: 5px;
+                    right: 10px;
+                }
+
+                &:where(.active) {
+                    background-color: #ffffff;
+                    border-top: 2px solid #5c67c8;
+                    font-weight: 600;
+                    box-shadow: #00000040 0px 0px 4px 0px;
+                }
+            }
+        }
+    }
+}

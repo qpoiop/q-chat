@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "strict": false,
+        "target": "esnext",
+        "lib": ["esnext"],
+        "removeComments": false,
+        "declaration": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "module": "esnext",
+        "skipLibCheck": true,
+        "declarationMap": true
+    },
+    "exclude": ["node_modules", "build", "docs"]
+}

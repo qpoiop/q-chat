@@ -1,0 +1,24 @@
+{
+    "name": "qchat-server-api",
+    "author": "qpoiop3@gmail.com",
+    "license": "ISC",
+    "private": true,
+    "version": "1.0.0",
+    "main": "index.tsx",
+    "sideEffects": [
+        "*.css"
+    ],
+    "type": "module",
+    "scripts": {
+        "start": "vite",
+        "build:dev": "vite build --mode development",
+        "build:prod": "vite build --mode production",
+        "ts:check": "tsc"
+    },
+    "devDependencies": {
+    },
+    "dependencies": {
+    },
+    "peerDependencies": {
+    }
+}

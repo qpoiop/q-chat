@@ -1,0 +1,14 @@
+$shadow-ev: 1, 2, 3;
+
+/** 미사용 **/
+:where(:root, :host) {
+    --shadow-1: 0 4px 2px 0 var(--q-color-shadow-default), 0 4px 8px 0 var(--q-color-shadow-strong);
+    --shadow-2: 0 4px 2px 0 var(--q-color-shadow-default), 0 4px 12px 0 var(--q-color-shadow-strong);
+    --shadow-3: 0 4px 2px 0 var(--q-color-shadow-default), 0 4px 16px 0 var(--q-color-shadow-strong);
+}
+
+@each $ev in $shadow-ev {
+    :where(.shadow-#{$ev}) {
+        box-shadow: var(--shadow-#{$ev});
+    }
+}

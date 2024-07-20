@@ -1,0 +1,11 @@
+@use '../../styles/mixins/position';
+
+.Header {
+    --q-border-bottom-width: 1px;
+    @include position.flex(row, flex-start, center);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+}

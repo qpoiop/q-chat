@@ -1,0 +1,16 @@
+$z-indices: primay, secondary, modal, alert, confirm, tooltip;
+
+:where(:root, :host) {
+    --z-index-primary: 100;
+    --z-index-secondary: 200;
+    --z-index-modal: 500;
+    --z-index-alert: 600;
+    --z-index-confirm: 700;
+    --z-index-tooltip: 800;
+}
+
+// @each $z-index in $z-indices {
+//     :where(.z-index-#{$z-index}) {
+//         z-index: var(--z-index-#{$z-index});
+//     }
+// }

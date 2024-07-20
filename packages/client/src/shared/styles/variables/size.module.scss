@@ -1,0 +1,57 @@
+$sizes: xl, l, m, s, xs;
+
+:where(:root, :host) {
+    /** variables of font size **/
+    --q-size-font-xl: 1.5rem;
+    --q-size-font-l: 1.2rem;
+    --q-size-font-m: 1rem;
+    --q-size-font-s: 0.85rem;
+    --q-size-font-xs: 0.7rem;
+
+    /** variables of button size **/
+    --q-size-button-xl: 7rem;
+    --q-size-button-l: 5.5rem;
+    --q-size-button-m: 4rem;
+    --q-size-button-s: 3rem;
+    --q-size-button-xs: 2rem;
+
+    /** TODO: width/height 분리가 필요한 경우 검토 **/
+    /** variables of modal size **/
+    --q-size-modal-xl: 90%; // in sub page on layer
+    --q-size-modal-l: 70%;
+    --q-size-modal-m: 50%; // in common modal
+    --q-size-modal-s: 30%;
+    --q-size-modal-xs: 20%; // in common confirm & alert
+
+    /** variables of switch size **/
+    --q-size-switch-width-xl: 80px;
+    --q-size-switch-width-l: 70px;
+    --q-size-switch-width-m: 60px;
+    --q-size-switch-width-s: 50px;
+    --q-size-switch-width-xs: 35px;
+
+    --q-size-switch-height-xl: 2rem;
+    --q-size-switch-height-l: 1.7rem;
+    --q-size-switch-height-m: 1.5rem;
+    --q-size-switch-height-s: 1.2rem;
+    --q-size-switch-height-xs: 1rem;
+}
+
+@each $size in $sizes {
+    :where(.size-#{$size}) {
+        &:is(.Button) {
+            font-size: var(--q-size-font-#{$size});
+            min-width: var(--q-size-button-#{$size});
+        }
+
+        &:is(.Modal) {
+            min-width: var(--q-size-modal-#{$size});
+            height: var(--q-size-modal-#{$size});
+        }
+
+        &:is(.Switch) {
+            min-width: var(--q-size-switch-width-#{$size});
+            height: var(--q-size-switch-height-#{$size});
+        }
+    }
+}

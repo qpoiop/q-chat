@@ -1,0 +1,17 @@
+:where(:root, :host) {
+    --q-font-famliy-sans-kr: 'sans-serif';
+    --q-font-famliy-pretendard: 'Pretendard';
+
+    --q-font-weight-bold: 600;
+    --q-font-weight-semi-bold: 500;
+    --q-font-weight-normal: 400;
+    --q-font-weight-light: 300;
+
+    :where(.bold) {
+        font-weight: var(--q-font-weight-bold);
+    }
+
+    :where(.italic) {
+        font-style: italic;
+    }
+}

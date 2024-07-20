@@ -1,0 +1,21 @@
+@use '../../../styles/mixins/variant';
+
+.Button {
+    cursor: pointer;
+    margin: 0 0.188rem;
+    padding: 0.438rem 0.55rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    @each $variant in variant.$color-variants {
+        &:where(.variant-#{$variant}) {
+            color: var(--q-color-base);
+            background-color: var(--q-color-background-#{$variant});
+            border: 1px solid var(--q-color-border-#{$variant});
+
+            &:where(:hover):where(:not(:disabled)) {
+                background-color: var(--q-color-base);
+            }
+        }
+    }
+}

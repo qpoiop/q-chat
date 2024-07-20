@@ -1,0 +1,17 @@
+$text-aligns: left, center, right;
+$flex-aligns: space-between, flex-start, flex-end, center;
+
+@each $align in $text-aligns {
+    :where(.text-#{$align}) {
+        text-align: $align;
+    }
+}
+
+@each $align in $flex-aligns {
+    :where(.justify-#{$align}) {
+        justify-content: $align;
+    }
+    :where(.align-#{$align}) {
+        align-items: $align;
+    }
+}

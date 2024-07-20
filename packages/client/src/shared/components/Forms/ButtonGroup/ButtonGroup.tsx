@@ -1,7 +1,7 @@
+import { Stack } from '@/shared/components'
+import { Direction, Position } from '@/shared/core'
 import classNames from 'classnames'
 import { forwardRef } from 'react'
-import { Stack } from 'src'
-import { Direction, Position } from '@/shared/core'
 import { IButtonGroupProps } from './ButtonGroup.types'
 
 /**

@@ -1,6 +1,6 @@
-import { forwardRef, memo, useCallback } from 'react'
 import { Box, Button, ButtonGroup, Modal, ModalFooter, ModalHeader } from '@/shared/components'
 import { DefaultValue, Size, Variant } from '@/shared/core'
+import { forwardRef, memo, useCallback } from 'react'
 import { IConfirmProps } from './Confirm.types'
 
 /**

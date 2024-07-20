@@ -1,4 +1,4 @@
-import { Box, Button } from 'src'
+import { Box, Button } from '@/shared/components'
 import styled from 'styled-components'
 
 export const SPagination = styled(Box)`

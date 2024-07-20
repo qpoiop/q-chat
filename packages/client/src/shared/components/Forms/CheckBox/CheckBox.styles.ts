@@ -1,4 +1,4 @@
-import { Label } from 'src'
+import { Label } from '@/shared/components'
 import { styled } from 'styled-components'
 
 export const SCheckBox = styled.div`

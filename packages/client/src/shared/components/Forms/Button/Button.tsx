@@ -1,7 +1,7 @@
+import { Loading } from '@/shared/components'
+import { Size, Variant } from '@/shared/core'
 import classNames from 'classnames'
 import { forwardRef, useCallback } from 'react'
-import { Loading } from 'src'
-import { Size, Variant } from '@/shared/core'
 import { IButtonProps } from '.'
 import { SButton } from './Button.styles'
 

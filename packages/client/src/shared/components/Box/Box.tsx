@@ -1,6 +1,6 @@
+import { useLayoutProps } from '@/shared/hooks/useStyleProps'
 import classNames from 'classnames'
 import { forwardRef } from 'react'
-import { useLayoutProps } from '@/shared/hooks/useStyleProps'
 import { SBox } from './Box.styles'
 import { IBoxProps } from './Box.types'
 

@@ -1,7 +1,7 @@
+import { Text } from '@/shared/components'
+import { Size, Variant } from '@/shared/core'
 import classNames from 'classnames'
 import { forwardRef, memo, useCallback, useEffect, useRef, useState } from 'react'
-import { Text } from 'src'
-import { Size, Variant } from '@/shared/core'
 import { STooltip, STooltipContent, STooltipTrigger, STooltipWrapper } from './Tooltip.styles'
 import { ITootipProps } from './Tooltip.types'
 

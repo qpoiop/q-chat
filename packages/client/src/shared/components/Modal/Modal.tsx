@@ -1,8 +1,8 @@
+import { Close, Overlay, Text } from '@/shared/components'
+import { DefaultValue, HAlign, Size } from '@/shared/core'
+import { useCreateContext } from '@/shared/hooks/useCreateContext'
 import classNames from 'classnames'
 import { forwardRef, memo, useMemo } from 'react'
-import { Close, Overlay, Text } from 'src'
-import { useCreateContext } from '@/shared/hooks/useCreateContext'
-import { DefaultValue, HAlign, Size } from '@/shared/core'
 import { SModal, SModalBackground, SModalClose, SModalContent, SModalFooter, SModalHeader } from './Modal.styles'
 import { IModalContextProps, IModalHeaderProps, IModalProps } from './Modal.types'
 

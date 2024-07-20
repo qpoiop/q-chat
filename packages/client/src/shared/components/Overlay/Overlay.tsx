@@ -1,8 +1,8 @@
+import { VAlign } from '@/shared/core'
+import { useMergeRefs } from '@/shared/hooks/useMergeRefs'
 import classNames from 'classnames'
 import { forwardRef, useCallback, useLayoutEffect, useMemo, useRef } from 'react'
 import ReactDOM from 'react-dom'
-import { useMergeRefs } from '@/shared/hooks/useMergeRefs'
-import { VAlign } from '@/shared/core'
 import { SOverlay, SOverlayContainer, SOverlayWrapper } from './Overlay.styles'
 import { IOverlayProps } from './Overlay.types'
 

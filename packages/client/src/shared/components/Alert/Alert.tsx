@@ -1,9 +1,9 @@
-import { forwardRef, memo, useCallback } from 'react'
 import { Box } from '@/shared/components/Box'
 import { Button } from '@/shared/components/Forms/Button'
 import { ButtonGroup } from '@/shared/components/Forms/ButtonGroup'
 import { Modal, ModalFooter, ModalHeader } from '@/shared/components/Modal'
 import { DefaultValue, Size } from '@/shared/core'
+import { forwardRef, memo, useCallback } from 'react'
 import { IAlertProps } from './Alert.types'
 
 /**

@@ -1,8 +1,8 @@
+import { Stack } from '@/shared/components'
+import { Direction, Position } from '@/shared/core'
+import { useCreateContext } from '@/shared/hooks/useCreateContext'
 import classNames from 'classnames'
 import { forwardRef, useMemo } from 'react'
-import { Stack } from 'src'
-import { useCreateContext } from '@/shared/hooks/useCreateContext'
-import { Direction, Position } from '@/shared/core'
 import { IFormGroupProps } from './FormGroup.types'
 
 const [FormGroupProvider, useFormGroupContext] = useCreateContext<IFormGroupProps>({})

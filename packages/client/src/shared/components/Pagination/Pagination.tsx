@@ -1,6 +1,6 @@
-import { forwardRef, useCallback, useMemo } from 'react'
-import { Stack, Text } from 'src'
+import { Stack, Text } from '@/shared/components'
 import { Position, Size, Variant, range } from '@/shared/core'
+import { forwardRef, useCallback, useMemo } from 'react'
 import { SPagination, SPaginationItem, SPaginationLeftItem, SPaginationRange, SPaginationRightItem } from './Pagination.styles'
 import { IPaginationProps } from './Pagination.types'
 

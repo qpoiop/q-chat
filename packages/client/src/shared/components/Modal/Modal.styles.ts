@@ -1,6 +1,6 @@
-import { Button } from 'src'
-import useStyled from '@/shared/hooks/useStyled'
+import { Button } from '@/shared/components'
 import { ISizeProps } from '@/shared/core'
+import useStyled from '@/shared/hooks/useStyled'
 import styled from 'styled-components'
 
 export const SModalBackground = styled.div`

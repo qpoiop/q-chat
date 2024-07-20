@@ -1,7 +1,7 @@
 import { resolve } from 'path'
 import { visualizer } from 'rollup-plugin-visualizer'
 import { defineConfig } from 'vite'
-import solidjs from 'vite-plugin-solid'
+import reactjs from '@vitejs/plugin-react'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
@@ -18,7 +18,7 @@ export default defineConfig({
         devSourcemap: true,
     },
     plugins: [
-        solidjs(),
+        reactjs(),
         tsconfigPaths(),
         visualizer({
             filename: './build/report.html',

@@ -1,4 +1,4 @@
-import { SideBar } from '@qui-react/element'
+import { SideBar } from '@/shared/layouts'
 import React from 'react'
 
 export function asider() {

@@ -8,6 +8,7 @@ function headerRoot() {
     // }, [])
 
     return (
+        <></>
         // <CoreUIHeader leftContent={logoContent}>
         //     <div></div>
         // </CoreUIHeader>

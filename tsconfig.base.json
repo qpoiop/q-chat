@@ -4,7 +4,6 @@
         "target": "esnext",
         "lib": ["esnext"],
         "removeComments": false,
-        "declaration": true,
         "moduleResolution": "node",
         "esModuleInterop": true,
         "noFallthroughCasesInSwitch": true,
@@ -21,5 +20,5 @@
         "skipLibCheck": true,
         "declarationMap": true
     },
-    "exclude": ["node_modules", "build", "docs"]
+    "exclude": ["node_modules", "build"]
 }

@@ -1,0 +1,28 @@
+:where(.variant-default) {
+    border-color: var(--q-color-border-default);
+    background-color: var(--q-color-background-default);
+}
+
+:where(.variant-primary) {
+    color: var(--q-color-font-default);
+    border-color: var(--q-color-border-primary);
+    background-color: var(--q-color-background-primary);
+}
+
+:where(.variant-secondary) {
+    color: var(--q-color-font-default);
+    border-color: var(--q-color-border-secondary);
+    background-color: var(--q-color-background-secondary);
+}
+
+:where(.variant-warning) {
+    color: var(--q-color-font-default);
+    border-color: var(--q-color-border-warning);
+    background-color: var(--q-color-background-warning);
+}
+
+:where(.variant-danger) {
+    color: var(--q-color-font-default);
+    border-color: var(--q-color-border-danger);
+    background-color: var(--q-color-background-danger);
+}

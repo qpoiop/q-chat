@@ -1,0 +1,20 @@
+@use 'sass:meta';
+
+@use './variables/color.module.scss';
+@use './variables/font.module.scss';
+// @use './variables/z-index.module.scss';
+// @use './variables/shadow.module.scss';
+@use './variables/size.module.scss';
+@use './variables/align.module.scss';
+@use './variables/form.module.scss';
+@use './variables/variant.module.scss';
+
+@layer reset, base, variables;
+
+@layer reset {
+    @include meta.load-css('reset');
+}
+
+@layer base {
+    @include meta.load-css('base');
+}

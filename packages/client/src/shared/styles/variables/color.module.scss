@@ -1,0 +1,53 @@
+[data-qui-theme='light'] {
+    --q-color-base: #f8f8f8;
+    --q-color-reverse: #222222;
+
+    --q-color-font-default: #1c2024;
+    --q-color-font-primary: #2e79eb;
+    --q-color-font-secondary: #afafaf;
+    --q-color-font-warning: #ffae62;
+    --q-color-font-danger: #ff4171;
+
+    --q-color-background-default: #ffffff;
+    --q-color-background-primary: #2e79eb;
+    --q-color-background-secondary: #b62eaa;
+    --q-color-background-warning: #ffae62;
+    --q-color-background-danger: #ff4545;
+
+    --q-color-border-default: #0009321f;
+    --q-color-border-primary: #2e79eb;
+    --q-color-border-secondary: #b62eaa;
+    --q-color-border-warning: #ffae62;
+    --q-color-border-danger: #ff4171;
+
+    --q-color-shadow-default: #f8f8f8;
+    --q-color-shadow-strong: #888888;
+    --q-color-shadow-danger: #ffd7e1;
+}
+
+[data-qui-theme='dark'] {
+    --q-color-base: #222222;
+    --q-color-reverse: #f8f8f8;
+
+    --q-color-font-default: #f6f7f8;
+    --q-color-font-primary: #ffae62;
+    --q-color-font-secondary: #afafaf;
+    --q-color-font-warning: #5d87ff;
+    --q-color-font-danger: #ff4171;
+
+    --q-color-background-default: #444444;
+    --q-color-background-primary: #fff4f2;
+    --q-color-background-secondary: #afafaf;
+    --q-color-background-warning: #ff66a6;
+    --q-color-background-danger: #ff4545;
+
+    --q-color-border-default: #f8f8f8;
+    --q-color-border-primary: #ffae62;
+    --q-color-border-secondary: #afafaf;
+    --q-color-border-warning: #ff66a6;
+    --q-color-border-danger: #ff4171;
+
+    --q-color-shadow-default: #dddddd;
+    --q-color-shadow-strong: #f8f8f8;
+    --q-color-shadow-danger: #ffd7e1;
+}

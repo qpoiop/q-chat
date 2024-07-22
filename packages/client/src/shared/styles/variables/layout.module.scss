@@ -1,0 +1,61 @@
+.q-layout {
+    --q-padding: 0;
+    --q-padding-horizontal: var(--q-padding);
+    --q-padding-vertical: var(--q-padding);
+    --q-padding-top: var(--q-padding-vertical);
+    --q-padding-right: var(--q-padding-horizontal);
+    --q-padding-bottom: var(--q-padding-vertical);
+    --q-padding-left: var(--q-padding-horizontal);
+
+    --q-margin: 0;
+    --q-margin-horizontal: var(--q-margin);
+    --q-margin-vertical: var(--q-margin);
+    --q-margin-top: var(--q-margin-vertical);
+    --q-margin-right: var(--q-margin-horizontal);
+    --q-margin-bottom: var(--q-margin-vertical);
+    --q-margin-left: var(--q-margin-horizontal);
+
+    --q-width: initial;
+    --q-height: initial;
+    --q-inset: auto;
+    --q-top: var(--q-inset);
+    --q-right: var(--q-inset);
+    --q-bottom: var(--q-inset);
+    --q-left: var(--q-inset);
+
+    // --q-background-color: initial;
+    // --q-border-color: initial;
+    --q-border-radius: 0px;
+    --q-border-width: 0px;
+    --q-border-top-width: var(--q-border-width);
+    --q-border-right-width: var(--q-border-width);
+    --q-border-bottom-width: var(--q-border-width);
+    --q-border-left-width: var(--q-border-width);
+
+    inset: var(--q-top) var(--q-right) var(--q-bottom) var(--q-left);
+
+    box-sizing: border-box;
+    width: var(--q-width);
+    height: var(--q-height);
+    padding: var(--q-padding-top) var(--q-padding-right) var(--q-padding-bottom) var(--q-padding-left);
+    margin: var(--q-margin-top) var(--q-margin-right) var(--q-margin-bottom) var(--q-margin-left);
+
+    // background-color: var(--q-background-color);
+    // border-color: var(--q-border-color);
+
+    border-style: solid;
+    border-width: var(--q-border-top-width) var(--q-border-right-width) var(--q-border-bottom-width) var(--q-border-left-width);
+    border-radius: var(--q-border-radius);
+
+    overflow: hidden;
+
+    &:where(.scroll) {
+        overflow: auto;
+    }
+    &:where(.scroll-x) {
+        overflow-x: auto;
+    }
+    &:where(.scroll-y) {
+        overflow-y: auto;
+    }
+}

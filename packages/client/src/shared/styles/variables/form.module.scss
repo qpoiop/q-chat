@@ -1,0 +1,6 @@
+:is(input, textarea) {
+    &:where(.error):not(:disabled) {
+        border: 1px solid var(--q-color-border-danger) !important;
+        box-shadow: 0 0 0 3px var(--q-color-shadow-danger) !important;
+    }
+}

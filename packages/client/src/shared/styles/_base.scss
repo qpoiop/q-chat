@@ -1,0 +1,15 @@
+:where(:root, :host) {
+    font-family: var(--q-font-family-sans-kr), var(--q-font-family-pretendard);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto;
+    color-scheme: light;
+    font-size: 62.5%;
+}
+
+[data-qui-theme='light'] {
+    color-scheme: light;
+}
+
+[data-qui-theme='dark'] {
+    color-scheme: dark;
+}

@@ -1,0 +1,12 @@
+export const DateTimeFormat = {
+    DATETIME_FORMAT: 'YYYY-MM-DD HH:mm:ss',
+    DATETIME_FORMAT_DOT: 'YYYY.MM.DD HH:mm:ss',
+    DATETIME_FORMAT_HOUR_MINUTES: 'YYYY-MM-DD HH:mm',
+    DATETIME_FORMAT_MILLISECONDS: 'YYYY-MM-DD HH:mm:ss.SSS',
+    TIME_FORMAT_DEFAULT: 'HH:mm:ss',
+    TIME_FORMAT_HOUR_MINUTES: 'HH:mm',
+    DATE_FORMAT: 'YYYY-MM-DD',
+    DATE_FORMAT_DATE_PICKER: 'yyyy-MM-dd',
+    HOUR: 'HH',
+    MINUTE: 'mm',
+}

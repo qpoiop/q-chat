@@ -46,7 +46,7 @@ module.exports = {
         'prettier', // Prettier와 충돌하는 ESLint 규칙을 비활성화합니다.
     ],
     rules: {
-        'prettier/prettier': 'error', // Prettier 관련 규칙을 에러로 설정하여 강제합니다.
+        'prettier/prettier': ['error', { endOfLine: 'auto' }], // Prettier 관련 규칙을 에러로 설정하여 강제합니다.
         'no-use-before-define': 'error', // 정의 전에 사용을 금지합니다.
         'no-unused-vars': [
             // 사용되지 않는 변수에 대해 경고하지 않습니다.

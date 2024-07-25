@@ -10,8 +10,7 @@
     "scripts": {
         "start": "pnpm start:api && pnpm start:ws && pnpm start:client",
         "start:client": "pnpm -F qchat-client start",
-        "start:api": "pnpm -F qchat-server-api start",
-        "start:ws": "pnpm -F qchat-server-ws start"
+        "start:server": "pnpm -F qchat-server start"
     },
     "license": "ISC",
     "browserslist": [
